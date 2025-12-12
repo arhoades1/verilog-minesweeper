@@ -190,7 +190,7 @@ The control scheme switches between two modes using SW[0] and SW[1]:
 - `timer.v`: Game timer implementation
 - `seven_segment.v`: Seven-segment display decoder
 - `two_decimal_vals.v`: Two-digit decimal display driver
-- `vga_driver.v`: VGA signal timing generator (Created by Dr. Peter Jamieson)
+- `vga_driver.v`: VGA signal timing generator (Created by [Dr. Peter Jamieson](https://www.drpeterjamieson.com/))
 
 ## Technical Highlights
 
