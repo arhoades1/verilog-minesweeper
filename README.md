@@ -2,6 +2,8 @@
 
 A hardware implementation of the classic Minesweeper game built in Verilog for the DE1-SoC FPGA development board, featuring VGA display output and physical button controls.
 
+![4EED106B-460C-4D57-9FAA-ECA5E9F58F2E_1_105_c](https://github.com/user-attachments/assets/e693ff1a-0bd9-4217-89ed-c8bccdb53540)
+
 ## Overview
 
 This project implements a fully functional Minesweeper game on an FPGA, complete with VGA graphics rendering, seven-segment displays for game statistics, and intuitive button-based controls. The game logic is implemented entirely in hardware using Verilog HDL.
@@ -42,6 +44,10 @@ This project implements a fully functional Minesweeper game on an FPGA, complete
 - **Flag Graphics**: Gray flag markers for suspected bomb locations
 - **Exploded Bomb**: Red background highlights the bomb that ended the game
 
+![2089E9E9-0EFB-4729-8C8F-E28CABB6DC60_1_102_o](https://github.com/user-attachments/assets/409d5772-0487-4fc8-94db-50765d1250b6)
+
+*Photo of some higher bomb counts*
+
 ## Hardware Requirements
 
 - DE1-SoC FPGA Development Board (or compatible Altera Cyclone V)
@@ -79,6 +85,10 @@ If you selected Custom Mode, follow these steps:
    - Press KEY[3] to start the game
    - Press KEY[2] to go back
 
+![E76A3B83-6E55-4A9B-8A64-785D5FC42821_4_5005_c](https://github.com/user-attachments/assets/83b0161f-a590-4536-a2ea-48e60e1a9e37)
+
+*Photo of Custom 3x9 Grid Size*
+
 ### Playing the Game
 
 Once the game starts, the grid appears with covered cells (gray) and a red cursor outline.
@@ -87,6 +97,10 @@ Once the game starts, the grid appears with covered cells (gray) and a red curso
 - **HEX5-HEX4**: Shows remaining bombs (Total bombs - Flags placed)
 - **HEX3-HEX2**: Timer minutes
 - **HEX1-HEX0**: Timer seconds
+
+![IMG_5078](https://github.com/user-attachments/assets/29d1af0b-54b6-4e9d-98ab-4c99e4f074a1)
+
+*Photo of the DE1-SoC with Hex Display Outputs*
 
 **Moving the Cursor**:
 1. Set SW[0]=0 and SW[1]=0 (Arrow Mode)
@@ -121,9 +135,17 @@ If you hit a bomb:
    - Press KEY[3] (Action Mode) to **restart** with a new board
    - Press KEY[2] (Action Mode) to **reveal** the entire board and see where all bombs were located
 
+![D846D325-ED38-45EB-99E8-0DDFF096D945_1_105_c](https://github.com/user-attachments/assets/931ca30f-67a8-493b-9ac5-04500a6b67f7)
+
+*Photo of an exploded bomb and revealed map*
+
 ### Winning the Game
 
 You win when all non-bomb cells are uncovered! The remaining cells will be covered bombs and/or flagged locations.
+
+![4EED106B-460C-4D57-9FAA-ECA5E9F58F2E_1_105_c](https://github.com/user-attachments/assets/ebd219cd-97d4-4667-9a5a-c35a2cc65759)
+
+*Photo of a Successfully Won Game*
 
 ### Tips for Success
 
