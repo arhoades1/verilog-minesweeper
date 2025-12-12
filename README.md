@@ -198,7 +198,7 @@ The control scheme switches between two modes using SW[0] and SW[1]:
 - **Grid Storage**: Efficient 7-bit encoding per cell stores bomb status, uncover state, flag state, and adjacent bomb count
 - **Neighbor Calculation**: Automatic computation of adjacent bomb counts in all 8 directions
 - **Flood Fill Algorithm**: Hardware implementation for revealing connected empty cells
-- **Efficient Display Scaling**: Graphics within each cell use display scaling to reduce register count.
+- **Efficient Display Scaling**: Graphics within each cell use display scaling to significantly reduce register count.
 
 ## Installation
 
