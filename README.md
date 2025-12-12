@@ -210,7 +210,7 @@ The control scheme switches between two modes using SW[0] and SW[1]:
 
 ## AI Usage Disclosure
 
-AI tools were lightly used in the development of this project, primarily in the form of agentic auto-completion to assist with code generation and debugging. The core design, architecture, and implementation logic were developed by the project author, Andrew Rhoades. AI-assisted coding tools helped accelerate the development process by suggesting code completions and syntax corrections, but all design decisions and functional specifications were human-directed.
+AI tools were lightly used in the development of this project, primarily in the form of agentic auto-completion to assist with code generation and debugging. The core design, architecture, and implementation logic were developed by the project authors, Andrew Rhoades & Linxu Pan. AI-assisted coding tools helped accelerate the development process by suggesting code completions and syntax corrections, but all design decisions and functional specifications were human-directed.
 
 **Enjoy playing Minesweeper!**
 This project was developed for Miami University's Digital Systems Design Course (ECE 287) Taught by Dr. Peter Jamieson.
