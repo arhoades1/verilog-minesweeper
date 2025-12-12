@@ -8,6 +8,14 @@ A hardware implementation of the classic Minesweeper game built in Verilog for t
 
 This project implements a fully functional Minesweeper game on an FPGA, complete with VGA graphics rendering, seven-segment displays for game statistics, and intuitive button-based controls. The game logic is implemented entirely in hardware using Verilog HDL.
 
+## Hardware Requirements
+
+- DE1-SoC FPGA Development Board (or compatible Altera Cyclone V)
+- VGA monitor and cable
+- Physical push buttons (KEY[3:0])
+- Switches (SW[9:0])
+- Seven-segment displays (HEX0-HEX5)
+
 ## Features
 
 ### Game Modes
@@ -47,14 +55,6 @@ This project implements a fully functional Minesweeper game on an FPGA, complete
 ![2089E9E9-0EFB-4729-8C8F-E28CABB6DC60_1_102_o](https://github.com/user-attachments/assets/409d5772-0487-4fc8-94db-50765d1250b6)
 
 *Photo of some higher bomb counts*
-
-## Hardware Requirements
-
-- DE1-SoC FPGA Development Board (or compatible Altera Cyclone V)
-- VGA monitor and cable
-- Physical push buttons (KEY[3:0])
-- Switches (SW[9:0])
-- Seven-segment displays (HEX0-HEX5)
 
 ## How to Play
 
